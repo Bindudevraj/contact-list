@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main-container{
+    height: 100vh;
+    width: 700px;
+    overflow: scroll;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-left: 30%;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 40px;
+    background-color: rgb(202, 216, 215);
+}
+
+.A-block, .B-block, .C-block, .D-block{
+    position: sticky;
+    display: flex;
+    overflow: scroll;
+    flex-direction: column;
+    color: white;
+    background-color: rgb(126, 134, 138);
+    height: 40px;
+    top: 0px;
+    left: 0px;
+    font-size: 20px;
+    /* align-self: flex-start; */
+}
+.D-block{
+    top: 40px;
+}
+p:nth-child(odd){
+    background-color: rgb(181, 190, 194);
+}
+p:nth-child(even){
+    background-color: rgb(217, 224, 226);
+}
